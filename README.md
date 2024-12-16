@@ -1,0 +1,2 @@
+# Type Error in TypeScript: Argument of type 'string[]' is not assignable to parameter of type 'string'
+This example demonstrates a common type error in TypeScript when passing an array to a function expecting a string. The `greeter` function expects a string, but we pass an array of strings. TypeScript correctly identifies this type mismatch.
